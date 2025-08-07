@@ -1,4 +1,5 @@
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import iilaLogo from "../assets/logos/IILA.png";
 
 const About = () => {
   return (
@@ -30,7 +31,7 @@ const About = () => {
         transition={{ duration: 0.6, delay: 0.4 }}
       >
         <img
-          src="src/assets/logos/IILA.png"
+          src={iilaLogo}
           alt="International Institute of Loss Adjusters"
           className="h-50 md:h-50 object-contain"
         />

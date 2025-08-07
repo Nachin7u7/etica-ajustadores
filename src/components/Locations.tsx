@@ -1,4 +1,8 @@
 
+
+import cbbaImg from "../assets/cbba.png";
+import lpzImg from "../assets/lpz.png";
+
 const Locations = () => {
     return (
         <section className="bg-blue-50 py-12 mt-8">
@@ -11,7 +15,7 @@ const Locations = () => {
                         <h3 className="text-xl font-semibold mb-2">Cochabamba</h3>
                         <a href="https://maps.app.goo.gl/rx4boEHoT7uxL3kv5" target="_blank" rel="noopener noreferrer">
                             <img
-                                src="src/assets/cbba.png"
+                                src={cbbaImg}
                                 alt="Ubicación Cochabamba Google Maps"
                                 className="rounded-md mb-3 w-full h-40 object-cover border border-blue-200 hover:scale-105 transition-transform duration-200"
                             />
@@ -28,7 +32,7 @@ const Locations = () => {
                         <h3 className="text-xl font-semibold mb-2">La Paz</h3>
                         <a href="https://maps.app.goo.gl/Sd5bCWdLHLkh7S2F6" target="_blank" rel="noopener noreferrer">
                             <img
-                                src="src/assets/lpz.png"
+                                src={lpzImg}
                                 alt="Ubicación La Paz Google Maps"
                                 className="rounded-md mb-3 w-full h-40 object-cover border border-blue-200 hover:scale-105 transition-transform duration-200"
                             />

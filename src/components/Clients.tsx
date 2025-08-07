@@ -1,19 +1,32 @@
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+
+import ypfb from "../assets/logos/ypfb.png";
+import cotel from "../assets/logos/cotel.png";
+import cbn from "../assets/logos/cbn.png";
+import pil from "../assets/logos/pil.png";
+import entel from "../assets/logos/entel.png";
+import bcb from "../assets/logos/bcb.png";
+import soboce from "../assets/logos/soboce.png";
+import coboce from "../assets/logos/coboce.png";
+import bisa from "../assets/logos/bisa.png";
+import francesa from "../assets/logos/francesa.png";
+import mercantil from "../assets/logos/mercantil.png";
+import prodem from "../assets/logos/prodem.png";
 
 const clients = [
-    { name: "YPFB", logo: "src/assets/logos/ypfb.png" },
-    { name: "COTEL", logo: "src/assets/logos/cotel.png" },
-    { name: "CBN", logo: "src/assets/logos/cbn.png" },
-    { name: "PIL", logo: "src/assets/logos/pil.png" },
-    { name: "ENTEL", logo: "src/assets/logos/entel.png" },
-    { name: "Banco Central", logo: "src/assets/logos/bcb.png" },
-    { name: "SOBOCE", logo: "src/assets/logos/soboce.png" },
-    { name: "COBOCE", logo: "src/assets/logos/coboce.png" },
-    { name: "BISA", logo: "src/assets/logos/bisa.png" },
-    { name: "FANCESA", logo: "src/assets/logos/francesa.png" },
-    { name: "MERCANTIL", logo: "src/assets/logos/mercantil.png" },
-    { name: "PRODEM", logo: "src/assets/logos/prodem.png" },
-]
+    { name: "YPFB", logo: ypfb },
+    { name: "COTEL", logo: cotel },
+    { name: "CBN", logo: cbn },
+    { name: "PIL", logo: pil },
+    { name: "ENTEL", logo: entel },
+    { name: "Banco Central", logo: bcb },
+    { name: "SOBOCE", logo: soboce },
+    { name: "COBOCE", logo: coboce },
+    { name: "BISA", logo: bisa },
+    { name: "FANCESA", logo: francesa },
+    { name: "MERCANTIL", logo: mercantil },
+    { name: "PRODEM", logo: prodem },
+];
 
 const Clients = () => {
     return (
