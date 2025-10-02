@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run copy-worker && tsc -b && vite build",
+    "copy-worker": "cp node_modules/pdfjs-dist/build/pdf.worker.min.mjs public/pdf.worker.min.js || copy node_modules\\pdfjs-dist\\build\\pdf.worker.min.mjs public\\pdf.worker.min.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -14,8 +15,10 @@
     "@types/react-router-dom": "^5.3.3",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.11",
+    "pdfjs-dist": "^5.4.149",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-pdf": "^10.1.0",
     "react-router-dom": "^7.9.3",
     "tailwind": "^2.3.1"
   },
